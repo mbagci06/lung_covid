@@ -4,7 +4,7 @@
 ### And Kaan Ata YILMAZ A59009346
 # How to Run the code for sections 
 Our github repo is created with Colab and any method ratherthan colab takes more time. Code calls the dataset from Kaggle , functions from this Github repo, models from Google Drive. There are 8 train files, 1 test file, 1 plot file. Possible problem about the code is the memory of the GPU
-#Outline 
+# Outline 
 - Train the models 
 - Test the models 
 - Plot the training process 

@@ -75,4 +75,5 @@ Unet_train_lung.ipynb
 Unet_transfer_train_covid.ipynb 
 Unet_trasnfer_train_lung.ipynb
 Unet_train_covid.ipynb
- @misc{vainf, title={VAINF/DeepLabV3Plus-Pytorch: Deeplabv3 and deeplabv3+ with pretrained weights for Pascal Voc &amp; Cityscapes}, url={https://github.com/VainF/DeepLabV3Plus-Pytorch}, journal={GitHub}, author={VainF}} 
+## Referneces
+[1] VainF. “VAINF/DeepLabV3Plus-Pytorch: Deeplabv3 and deeplabv3+ with Pretrained Weights for Pascal Voc &amp; Cityscapes.” GitHub. Accessed June 8, 2022. https://github.com/VainF/DeepLabV3Plus-Pytorch. 

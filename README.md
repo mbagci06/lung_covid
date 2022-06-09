@@ -55,6 +55,7 @@ gdown helps to download Google Drive files
 This folder has the trained models some of them about 670Mb, downloading from Drive to colab is the fastest. 
 ```
 !gdown --folder https://drive.google.com/drive/folders/1MIzhxSou4TRtQTcG3AADqLag28nj3FrV?usp=sharing
+```
 ## Plot the training process
 As we called the models we can call the txt files which are created in the training section. 
 To plot we need to call the functions that used in the training. 

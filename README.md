@@ -76,6 +76,6 @@ Unet_transfer_train_covid.ipynb
 Unet_trasnfer_train_lung.ipynb
 Unet_train_covid.ipynb
 ## References
-[1]Pytorch. (n.d.). Pytorch/vision: Datasets, transforms and models specific to Computer Vision. Retrieved June 8, 2022, from https://github.com/pytorch/vision
-[2] VainF. “VAINF/DeepLabV3Plus-Pytorch: Deeplabv3 and deeplabv3+ with Pretrained Weights for Pascal Voc &amp; Cityscapes.” GitHub. Accessed June 8, 2022. https://github.com/VainF/DeepLabV3Plus-Pytorch. 
-[3] Milesial. (n.d.). Milesial/Pytorch-UNet: Pytorch implementation of the U-Net for image semantic segmentation with high quality images. Retrieved June 8, 2022, from https://github.com/milesial/Pytorch-UNet
+- [1]Pytorch. (n.d.). Pytorch/vision: Datasets, transforms and models specific to Computer Vision. Retrieved June 8, 2022, from https://github.com/pytorch/vision
+- [2] VainF. “VAINF/DeepLabV3Plus-Pytorch: Deeplabv3 and deeplabv3+ with Pretrained Weights for Pascal Voc &amp; Cityscapes.” GitHub. Accessed June 8, 2022. https://github.com/VainF/DeepLabV3Plus-Pytorch. 
+- [3] Milesial. (n.d.). Milesial/Pytorch-UNet: Pytorch implementation of the U-Net for image semantic segmentation with high quality images. Retrieved June 8, 2022, from https://github.com/milesial/Pytorch-UNet

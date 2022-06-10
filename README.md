@@ -91,7 +91,7 @@ and should be be named archive The code will reach it.
 ```
 
 
-In the ____ file
+In the MaskR-CNN file
 This line calls the function.ipynb but it is in the same folder
 
 ```

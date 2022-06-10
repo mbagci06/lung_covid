@@ -1,5 +1,5 @@
 # Lung and Covid-19 Segmentation With Deep Learning Models 
-## U-Net, DeepLab V3+
+## The First Part U-Net, DeepLab V3+
 ### Mehmet Furkan BAGCI A59007022
 
 # How to Run the code for sections 

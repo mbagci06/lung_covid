@@ -106,6 +106,7 @@ In the class kaan_dataset() there is a root_dir= value
 ```
 
 ## References
-- [1]Pytorch. (n.d.). Pytorch/vision: Datasets, transforms and models specific to Computer Vision. Retrieved June 8, 2022, from https://github.com/pytorch/vision
+- [1] Pytorch. (n.d.). Pytorch/vision: Datasets, transforms and models specific to Computer Vision. Retrieved June 8, 2022, from https://github.com/pytorch/vision
 - [2] VainF. “VAINF/DeepLabV3Plus-Pytorch: Deeplabv3 and deeplabv3+ with Pretrained Weights for Pascal Voc &amp; Cityscapes.” GitHub. Accessed June 8, 2022. https://github.com/VainF/DeepLabV3Plus-Pytorch. 
 - [3] Milesial. (n.d.). Milesial/Pytorch-UNet: Pytorch implementation of the U-Net for image semantic segmentation with high quality images. Retrieved June 8, 2022, from https://github.com/milesial/Pytorch-UNet
+- [4] Torchvision object detection finetuning tutorial¶. TorchVision Object Detection Finetuning Tutorial - PyTorch Tutorials 1.11.0+cu102 documentation. (n.d.). Retrieved June 9, 2022, from https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html

@@ -83,7 +83,7 @@ Unet_train_covid.ipynb
 
 To run the Mask R-Cnn files
 First Kaggle dataset should be downloaded https://www.kaggle.com/datasets/anasmohammedtahir/covidqu
-and should be be named archive The code will reach it.
+and should be named archive. The code will reach it.
 
 ```
  def __init__(self,root_dir = ("/content/archive"),class_folder='lung',split = "Train", transforms = None , shuffle = True,batch_size=1,

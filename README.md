@@ -80,8 +80,8 @@ Unet_train_covid.ipynb
 
 # Second part of the project The Mask R-CNN part of the repo 
 ## And Kaan Ata YILMAZ A59009346
-
-To run the Mask R-Cnn files
+COdes best runs in the colab
+To run the Mask R-Cnn files:
 First Kaggle dataset should be downloaded https://www.kaggle.com/datasets/anasmohammedtahir/covidqu
 and should be named archive. The code will reach it.
 

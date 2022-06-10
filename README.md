@@ -1,9 +1,9 @@
 # Lung and Covid-19 Segmentation With Deep Learning Models 
-## U-Net, DeepLab V3+, Mask R-CNN
+## U-Net, DeepLab V3+
 ### Mehmet Furkan BAGCI A59007022
-### And Kaan Ata YILMAZ A59009346
+
 # How to Run the code for sections 
-Our github repo is created with Colab and any method ratherthan colab takes more time. Code calls the dataset from Kaggle , functions from this Github repo, models from Google Drive. There are 8 train files, 1 test file, 1 plot file. Possible problem about the code is the memory of the GPU
+Our github repo is created with Colab and any method but colab takes more time. Code calls the dataset from Kaggle , functions from this Github repo, models from Google Drive. There are 8 train files, 1 test file, 1 plot file. Possible problem about the code is the memory of the GPU
 ## Outline 
 - Train the models 
 - Test the models 
@@ -13,6 +13,8 @@ Our github repo is created with Colab and any method ratherthan colab takes more
 For this project we used this dataset : COVID-QU-Ex[1] Dataset contains 33,920 chest X-ray (CXR) images including their masks. 
 To call and unzipping the dataset takes 3 mins. 
 There are atleast 8 .ipynb file for training, 3 feature model(U-Net, DeepLab v3+), Class(Lung, Covid), method(transfer learning, pretrained) 2*2*2=8  
+
+This functions are in side of the files.
 Call this repo for functions 
 ```
 ! git clone https://github.com/mbagci06/lung_covid
@@ -75,6 +77,34 @@ Unet_train_lung.ipynb
 Unet_transfer_train_covid.ipynb 
 Unet_trasnfer_train_lung.ipynb
 Unet_train_covid.ipynb
+
+# Second part of the project The Mask R-CNN part of the repo 
+## And Kaan Ata YILMAZ A59009346
+
+To run the Mask R-Cnn files
+First Kaggle dataset should be downloaded https://www.kaggle.com/datasets/anasmohammedtahir/covidqu
+and should be be named archive The code will reach it.
+
+```
+ def __init__(self,root_dir = ("/content/archive"),class_folder='lung',split = "Train", transforms = None , shuffle = True,batch_size=1,
+                 sample_size=500 ):
+```
+
+
+In the ____ file
+This line calls the function.ipynb but it is in the same folder
+
+```
+!cp /content/drive/MyDrive/Covid/functions.ipynb  /content  
+```
+
+In the class kaan_dataset() there is a root_dir= value 
+
+```
+ def __init__(self,root_dir = ("/content/archive"),class_folder='lung',split = "Train", transforms = None , shuffle = True,batch_size=1,
+                 sample_size=500 ):
+```
+
 ## References
 - [1]Pytorch. (n.d.). Pytorch/vision: Datasets, transforms and models specific to Computer Vision. Retrieved June 8, 2022, from https://github.com/pytorch/vision
 - [2] VainF. “VAINF/DeepLabV3Plus-Pytorch: Deeplabv3 and deeplabv3+ with Pretrained Weights for Pascal Voc &amp; Cityscapes.” GitHub. Accessed June 8, 2022. https://github.com/VainF/DeepLabV3Plus-Pytorch. 
